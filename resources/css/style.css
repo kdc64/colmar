@@ -1,0 +1,119 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
+  line-height: 1;
+}
+
+/* header section */
+
+header {
+  background-color: white;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 3.2rem;
+  padding-left: 24px;
+}
+
+.colmar {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.academy {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #B5B4B4;
+}
+
+header nav {
+  margin-right: 24px;
+}
+
+.nav a {
+  display: inline-block;
+  padding-right: 16px;
+  color: #383838;
+  font-size: 1.3rem;
+  cursor: auto;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* main banner section */
+
+.main-banner {
+  background-color: #DCDCDC;
+  margin: 0 auto;
+}
+
+.main-banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.left-section img {
+  width: 100%;
+}
+
+.right-section {
+  width: 440px;
+}
+
+.tagline {
+  height: auto;
+  padding-left: 20px;
+  margin-right: 60px;
+  margin-top: 10.8rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.tagline h1 {
+  font-size: 3.1rem;
+  color: #383838;
+  font-weight: 700;
+}
+
+.tagline h4 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 1.5rem;
+  color: #383838;
+  font-weight: 500;
+  line-height: 1.45rem;
+}
+
+.tagline a {
+  background-color: #383838;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+}
